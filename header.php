@@ -1,3 +1,7 @@
+<?php 
+    // 0 belum login || 1 sudah login
+    $login = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +50,11 @@
             </div>
         </div>
     </div>
-
+    <?php 
+        if ($login == 0) {
+            echo "";
+        } else {
+    ?>
     <nav class="navbar navbar-default" role="navigation" id="custom-nav">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -81,3 +89,8 @@
         </div>
         <!-- /.container -->
     </nav>
+    <?php } ?>
+    <div class="col-md-12">
+        <div class="pembatas">
+        </div>
+    </div>

@@ -7,6 +7,10 @@ body{
   background-color: #E8E8E8;
 }
 
+.pembatas{
+  height:50px;
+}
+
 .header{
   width: 100%;
   height: 80px;

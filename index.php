@@ -1,8 +1,8 @@
 <?php include_once 'header.php'; ?>
-    <div class="container">
+    <div class="container" style="margin-top:100px;">
         <div class="row text-center">
-            <div class="col-sm-3"></div>
-            <div class="col-sm-6">
+            <div class="col-sm-4"></div>
+            <div class="col-sm-4">
                 <div class="panel panel-warning">
                     <div class="panel-heading">
                         <strong>
@@ -28,11 +28,16 @@
                             </div>
                         </div>
                         <br>
-                        <button class="btn btn-lg btn-block text-center" type="submit" style="width:100px;background-color:#FCF8E3;color:#8A6D3B;border:1px solid #8A6D3B;">Login</button>
+                        <div class="row">
+                            <div class="col-sm-4"></div>
+                            <div class="col-sm-8">
+                                <button class="btn btn-lg btn-block text-center" type="submit" style="width:100px;background-color:#FCF8E3;color:#8A6D3B;border:1px solid #8A6D3B;">Login</button>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3"></div>
+            <div class="col-sm-4"></div>
         </div>
     </div>
 <?php include_once 'footer.php'; ?>

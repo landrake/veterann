@@ -25,7 +25,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/datepicker.min.js"></script>
-
+    <script src="assets/plugins/datatables/jquery.dataTables.js"></script>
+    <script src="assets/plugins/datatables/dataTables.bootstrap.js"></script>
 </head>
 
 <body>
@@ -51,7 +52,7 @@
         </div>
     </div>
     <?php 
-        if ($login == 0) {
+        if ($login == 1) {
             echo "";
         } else {
     ?>

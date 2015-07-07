@@ -24,9 +24,19 @@
         $('#tgl_lhr').datepicker({
              format: 'dd-mm-yyyy'
         });
+        
         $('#tgl_pen').datepicker({
              format: 'dd-mm-yyyy'
         });
+
+        //Data Tables
+        $('#dataTable').dataTable( {
+            "aoColumnDefs": [
+            //Remove sorting
+                { 'bSortable': false, 'aTargets': [ '_all' ] }
+            ]
+        });
+        
     });
 </script>
 </body>

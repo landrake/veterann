@@ -87,6 +87,11 @@
                                         <option value="P">P</option>
                                     </select>
                                 </div>
+
+                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Tahun Bhakti</label>
+                                <div class="col-sm-1">
+                                    <input class="form-control" type="text" id="formGroupInputSmall" name="thn_bkt">
+                                </div>
                                 <br><br>
                             </div>
                             <div class="row">
@@ -99,11 +104,7 @@
                                         <option value="P">P</option>
                                     </select>
                                 </div>
-                                <label class="col-sm-1 control-label" for="formGroupInputSmall" style="text-align:left;">Tahun Bhakti</label>
-                                <div class="col-sm-1">
-                                    <input class="form-control" type="text" id="formGroupInputSmall" name="thn_bkt">
-                                </div>
-                                <label class="col-sm-1 control-label" for="formGroupInputSmall" style="text-align:left;">Bulan Bhakti</label>
+                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Bulan Bhakti</label>
                                 <div class="col-sm-1">
                                     <input class="form-control" type="text" id="formGroupInputSmall" name="bln_bkt">
                                 </div>
@@ -158,13 +159,14 @@
                                 </div>
                                 <br><br>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-sm-1"></div>
                                 <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Ahli Waris 1</label>
                                 <div class="col-sm-3">
                                     <input class="form-control" type="text" id="formGroupInputSmall" name="waris1">
                                 </div>
-                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Tanggal lahir</label>
+                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Tanggal lahir 1</label>
                                 <div class="col-sm-3">
                                     <input class="form-control" type="text" id="formGroupInputSmall" name="tgl_waris1">
                                 </div>
@@ -176,7 +178,7 @@
                                 <div class="col-sm-3">
                                     <input class="form-control" type="text" id="formGroupInputSmall" name="waris2">
                                 </div>
-                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Tanggal lahir</label>
+                                <label class="col-sm-2 control-label" for="formGroupInputSmall" style="text-align:left;">Tanggal lahir 2</label>
                                 <div class="col-sm-3">
                                     <input class="form-control" type="text" id="formGroupInputSmall" name="tgl_waris2">
                                 </div>
@@ -193,6 +195,7 @@
             </div>
         </div>
     </div>
+    <br><br>
     <br><br>
     <!-- /.container -->
 <?php include_once 'footer.php'; ?>
